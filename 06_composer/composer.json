@@ -1,0 +1,18 @@
+{
+    "name": "kasep/06_composer",
+    "authors": [
+        {
+            "name": "ciplex",
+            "email": "johndoe@example.com"
+        }
+    ],
+    "require": {
+        "nesbot/carbon": "^1.22",
+        "fzaninotto/faker": "^1.7"
+    },
+    "autoload":{
+        "psr-4": {
+            "Portal\\": "src/"
+        }
+    }
+}
